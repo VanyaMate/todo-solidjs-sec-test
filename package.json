@@ -1,0 +1,22 @@
+{
+    "name": "solid-hello",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@vanyamate/sec": "^0.1.0",
+        "classnames": "^2.5.1",
+        "solid-js": "^1.8.17"
+    },
+    "devDependencies": {
+        "sass": "^1.77.6",
+        "typescript": "^5.2.2",
+        "vite": "^5.3.1",
+        "vite-plugin-solid": "^2.10.2"
+    }
+}
