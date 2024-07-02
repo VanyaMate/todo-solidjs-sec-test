@@ -8,7 +8,7 @@ import {
     UpdateTodoStatusSelection,
 } from '../../../feature/todo/UpdateTodoStatusSelection/UpdateTodoStatusSelection.tsx';
 import { Component, For, JSX } from 'solid-js';
-import { useStore } from '../../../../hook/useStore.ts';
+import { useStore } from '@vanyamate/sec-solidjs';
 import { DomainTodo } from '../../../../types/todo/todo.type.ts';
 
 

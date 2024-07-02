@@ -4,7 +4,7 @@ import {
     removeTodoEffect,
     todoStatus,
 } from '../../../../model/todo/todo.model.ts';
-import { useStore } from '../../../../hook/useStore.ts';
+import { useStore } from '@vanyamate/sec-solidjs';
 import { Component } from 'solid-js';
 
 

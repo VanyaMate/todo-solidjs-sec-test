@@ -7,7 +7,7 @@ import {
 import { TodoHeader } from './TodoHeader/TodoHeader.tsx';
 import { TodoList } from './TodoList/TodoList.tsx';
 import { Component, onMount } from 'solid-js';
-import { useStore } from '../../../hook/useStore.ts';
+import { useStore } from '@vanyamate/sec-solidjs';
 
 
 export const TodoWindow: Component = function () {
@@ -15,11 +15,7 @@ export const TodoWindow: Component = function () {
     const adding  = useStore(todoAdding);
     const loading = useStore(todoLoading);
 
-    console.log('Loading is', loading);
-
-    onMount(() => {
-        loadTodosEffect();
-    });
+    onMount(loadTodosEffect);
 
     return (
         <main class={ classNames(css.container) }>

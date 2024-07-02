@@ -6,7 +6,7 @@ import {
     updateTodoEffect,
 } from '../../../../model/todo/todo.model.ts';
 import { Component } from 'solid-js';
-import { useStore } from '../../../../hook/useStore.ts';
+import { useStore } from '@vanyamate/sec-solidjs';
 
 
 export type UpdateTodoStatusSelectionProps =
